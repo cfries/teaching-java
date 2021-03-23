@@ -22,7 +22,8 @@ public class Record {
 		Person person = new Person("Christian", "Fries", 19, false);
 
 		System.out.println(person);
-		
+		System.out.println(person.firstname());
+
 		if(person.firstname().equals("Christian")) {
 			System.out.println("true");
 		}

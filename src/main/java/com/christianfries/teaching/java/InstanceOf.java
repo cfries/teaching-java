@@ -21,7 +21,7 @@ public class InstanceOf {
 
 	private void test() {
 
-		Object json = """
+		Object myObject = """
 				"name" : "Fries",
 				"firstname" : "Christian",
 				"hobbies" : [
@@ -33,12 +33,12 @@ public class InstanceOf {
 				]
 				""";
 
-		if(json instanceof String jsonAsString) {
-			String upper = jsonAsString.toUpperCase();
+		if(myObject instanceof String objectAsString) {
+			String upper = objectAsString.toUpperCase();
 			System.out.println(upper);
 		}
 		
-		if(json instanceof Number dataAsNumber) {
+		if(myObject instanceof Number dataAsNumber) {
 			Double value = dataAsNumber.doubleValue() * 2.0;
 			System.out.println(value);
 		}

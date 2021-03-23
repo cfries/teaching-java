@@ -25,7 +25,7 @@ public class TryWithResrouceAutocloseable {
 
 		public void otherStuff() {
 			System.out.println("other stuff");
-//			throw new RuntimeException("failed");
+			throw new RuntimeException("failed");
 		}
 	}
 
@@ -33,7 +33,7 @@ public class TryWithResrouceAutocloseable {
 	public static void main(String[] args) {
 		
 		System.out.println("Running...");
-		try(var resource = new MyResource()) {
+		try(MyResource resource = new MyResource()) {
 
 			resource.doSomething();
 			resource.otherStuff();
