@@ -5,6 +5,11 @@
  */
 package com.christianfries.teaching.java.nestbasedaccesscontrol;
 
+/**
+ * A class with a private method that is accessible trough an inner class.
+ * 
+ * @author Christian Fries
+ */
 public class OuterClass {
 
 	private void outerMethodBeingPrivate() {

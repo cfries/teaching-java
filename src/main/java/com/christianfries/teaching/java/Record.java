@@ -5,6 +5,11 @@
  */
 package com.christianfries.teaching.java;
 
+/**
+ * Records are part of Java 16. A preview was given in Java 14 (JEP 359).
+ * 
+ * @author Christian Fries
+ */
 public class Record {
 	
 	public static void main(String[] args) {

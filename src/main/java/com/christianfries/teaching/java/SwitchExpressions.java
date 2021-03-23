@@ -6,11 +6,12 @@
 package com.christianfries.teaching.java;
 
 /**
- * The classical switch statement is control flow (execute differnt code blocks).
+ * Switch expressions appeared as preview in Java 13 (JEP 354).
  * 
+ * The classical switch statement is control flow (execute different code blocks).
  * A switch expression can be interpreted as a functions that returns a value. Instead of the keyword return the value is 
  * 
- * @author fries
+ * @author Christian Fries
  */
 public class SwitchExpressions {
 

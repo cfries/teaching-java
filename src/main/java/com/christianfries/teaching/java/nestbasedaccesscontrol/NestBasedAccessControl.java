@@ -9,6 +9,10 @@ import java.util.Arrays;
 
 import com.christianfries.teaching.java.nestbasedaccesscontrol.OuterClass.InnerClass;
 
+/**
+ * 
+ * @author Christian Fries
+ */
 public class NestBasedAccessControl {
 
 	public static void main(String[] args) {

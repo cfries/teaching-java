@@ -6,6 +6,7 @@
 package com.christianfries.teaching.java;
 
 /**
+ * InstanceOf pattern matching appeard in Java 14 (as a preview, JEP 305).
  * We may automatically specify the casted reference in an instanceof test block.
  * 
  * @author Christian Fries
